@@ -10,4 +10,6 @@ BOM:
 - resistors: 3x 2.5k
 
 cable:
-- 571-749805-7
+- 571-749805-7 FAIL
+- 617-09-67-009-0424 with 706-162A10069X ? + socket 571-3-1634222-2 or --> 806-KF85X-ED-9P-BR (male with boardlock) <-- ? --> 806-KF85X-ED-9S-BR (female with boardlock) <--
+

@@ -290,120 +290,6 @@ D = Direct mounting &lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="con-amphenol-rj45-ld">
-<description>&lt;b&gt;Amphenol RJ-45 Sockets&lt;/b&gt; with integrated magnetics</description>
-<packages>
-<package name="RJ45-TRAFO-L">
-<description>&lt;b&gt;RJ45 with LED pins&lt;/b&gt;</description>
-<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.127" layer="21"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-11.43" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-11.43" x2="-7.62" y2="-11.43" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-11.43" x2="-7.62" y2="10.16" width="0.127" layer="21"/>
-<pad name="1" x="-4.445" y="6.35" drill="1"/>
-<pad name="2" x="-3.175" y="8.89" drill="1"/>
-<pad name="3" x="-1.905" y="6.35" drill="1"/>
-<pad name="4" x="-0.635" y="8.89" drill="1"/>
-<pad name="5" x="0.635" y="6.35" drill="1"/>
-<pad name="6" x="1.905" y="8.89" drill="1"/>
-<pad name="7" x="3.175" y="6.35" drill="1"/>
-<pad name="8" x="4.445" y="8.89" drill="1"/>
-<pad name="LEDG+" x="-6.35" y="-5.08" drill="1.1"/>
-<pad name="LEDG-" x="-3.81" y="-5.08" drill="1.1"/>
-<pad name="LEDY+" x="3.81" y="-5.08" drill="1.1"/>
-<pad name="LEDY-" x="6.35" y="-5.08" drill="1.1"/>
-<pad name="GND1" x="-7.62" y="2.54" drill="1.6"/>
-<pad name="GND2" x="7.62" y="2.54" drill="1.6"/>
-<hole x="-5.08" y="0" drill="3.2"/>
-<hole x="5.08" y="0" drill="3.2"/>
-</package>
-</packages>
-<symbols>
-<symbol name="RJ45-TRAFO-L">
-<wire x1="-16.51" y1="-27.94" x2="-16.51" y2="22.86" width="0.1904" layer="94"/>
-<wire x1="-16.51" y1="22.86" x2="8.89" y2="22.86" width="0.1904" layer="94"/>
-<wire x1="8.89" y1="22.86" x2="8.89" y2="1.27" width="0.1904" layer="94"/>
-<wire x1="8.89" y1="1.27" x2="10.16" y2="1.27" width="0.1904" layer="94"/>
-<wire x1="10.16" y1="1.27" x2="10.16" y2="-1.905" width="0.1904" layer="94"/>
-<wire x1="10.16" y1="-1.905" x2="11.43" y2="-1.905" width="0.1904" layer="94"/>
-<wire x1="11.43" y1="-1.905" x2="11.43" y2="-3.81" width="0.1904" layer="94"/>
-<wire x1="11.43" y1="-3.81" x2="10.16" y2="-3.81" width="0.1904" layer="94"/>
-<wire x1="10.16" y1="-3.81" x2="10.16" y2="-6.985" width="0.1904" layer="94"/>
-<wire x1="10.16" y1="-6.985" x2="8.89" y2="-6.985" width="0.1904" layer="94"/>
-<wire x1="8.89" y1="-6.985" x2="8.89" y2="-27.94" width="0.1904" layer="94"/>
-<wire x1="8.89" y1="-27.94" x2="-16.51" y2="-27.94" width="0.1904" layer="94"/>
-<wire x1="-15.24" y1="-25.4" x2="-15.24" y2="20.32" width="0.1904" layer="94"/>
-<wire x1="-15.24" y1="20.32" x2="5.08" y2="20.32" width="0.1904" layer="94"/>
-<wire x1="5.08" y1="20.32" x2="5.08" y2="13.97" width="0.1904" layer="94"/>
-<wire x1="5.08" y1="13.97" x2="7.62" y2="13.97" width="0.1904" layer="94"/>
-<wire x1="7.62" y1="13.97" x2="7.62" y2="-19.05" width="0.1904" layer="94"/>
-<wire x1="7.62" y1="-19.05" x2="5.08" y2="-19.05" width="0.1904" layer="94"/>
-<wire x1="5.08" y1="-19.05" x2="5.08" y2="-25.4" width="0.1904" layer="94"/>
-<wire x1="5.08" y1="-25.4" x2="-15.24" y2="-25.4" width="0.1904" layer="94"/>
-<rectangle x1="5.715" y1="15.24" x2="7.62" y2="20.32" layer="94"/>
-<rectangle x1="5.715" y1="-25.4" x2="7.62" y2="-20.32" layer="94"/>
-<pin name="TX+" x="-20.32" y="15.24" length="middle"/>
-<pin name="TX0" x="-20.32" y="10.16" length="middle"/>
-<pin name="TX-" x="-20.32" y="5.08" length="middle"/>
-<pin name="RX+" x="-20.32" y="0" length="middle"/>
-<pin name="RX0" x="-20.32" y="-5.08" length="middle"/>
-<pin name="RX-" x="-20.32" y="-10.16" length="middle"/>
-<pin name="NC1" x="-20.32" y="-15.24" length="middle" direction="nc"/>
-<pin name="GND" x="-20.32" y="-20.32" length="middle" direction="pwr"/>
-<pin name="LEDY+" x="0" y="-30.48" length="middle" rot="R90"/>
-<pin name="LEDY-" x="2.54" y="-30.48" length="middle" rot="R90"/>
-<pin name="LEDG+" x="0" y="25.4" length="middle" rot="R270"/>
-<pin name="LEDG-" x="2.54" y="25.4" length="middle" rot="R270"/>
-<pin name="GND2" x="-5.08" y="25.4" length="middle" direction="pwr" rot="R270"/>
-<pin name="GND1" x="-5.08" y="-30.48" length="middle" direction="pwr" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RJ45-TRAFO-L">
-<description>&lt;b&gt;RJ45 socket with integrated magnetics and LEDs&lt;/b&gt;
-&lt;p&gt;
-  &lt;table&gt;
-      &lt;tr&gt;&lt;td&gt;&lt;b&gt;Naming:&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;Amphenol&lt;/td&gt;&lt;td&gt;LMJ1998824110DL1T39J&lt;/td&gt;
-      &lt;tr&gt;&lt;td&gt;TME&lt;/td&gt;&lt;td&gt;RJ45-TRAFO-L&lt;/td&gt;&lt;/tr&gt;
-  &lt;/table&gt;
-&lt;/p&gt;
-&lt;p&gt;
-   &lt;b&gt;Author:&lt;/b&gt;&amp;nbsp;
-   &lt;a href="mailto:kalandrap@gmail.com"&gt;Petr Kalandra&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;
-   &lt;b&gt;Datasheet:&lt;/b&gt;&amp;nbsp;
-   &lt;a href="http://zefiryn.tme.pl/dok/zlacza/rjtrafol.PDF"&gt;http://zefiryn.tme.pl/dok/zlacza/rjtrafol.PDF&lt;/a&gt;
-&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RJ45-TRAFO-L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RJ45-TRAFO-L">
-<connects>
-<connect gate="G$1" pin="GND" pad="8"/>
-<connect gate="G$1" pin="GND1" pad="GND1"/>
-<connect gate="G$1" pin="GND2" pad="GND2"/>
-<connect gate="G$1" pin="LEDG+" pad="LEDG+"/>
-<connect gate="G$1" pin="LEDG-" pad="LEDG-"/>
-<connect gate="G$1" pin="LEDY+" pad="LEDY+"/>
-<connect gate="G$1" pin="LEDY-" pad="LEDY-"/>
-<connect gate="G$1" pin="NC1" pad="7"/>
-<connect gate="G$1" pin="RX+" pad="4"/>
-<connect gate="G$1" pin="RX-" pad="6"/>
-<connect gate="G$1" pin="RX0" pad="5"/>
-<connect gate="G$1" pin="TX+" pad="1"/>
-<connect gate="G$1" pin="TX-" pad="3"/>
-<connect gate="G$1" pin="TX0" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-phoenix-508">
 <description>&lt;b&gt;Phoenix Connectors&lt;/b&gt;&lt;p&gt;
 Grid 5.08 mm&lt;p&gt;
@@ -4128,6 +4014,111 @@ type RDH, grid 15 mm</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-amphenol-rj45-nzin">
+<description>&lt;b&gt;Amphenol RJ-45 Sockets&lt;/b&gt; RJHSE5E8X</description>
+<packages>
+<package name="RJ45-RJHSE5E8X">
+<description>&lt;b&gt;RJ45 without LED pins&lt;/b&gt;</description>
+<wire x1="-8.89" y1="10.16" x2="8.128" y2="10.16" width="0.127" layer="21"/>
+<wire x1="8.128" y1="10.16" x2="8.128" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="8.128" y1="-7.62" x2="-8.89" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-7.62" x2="-8.89" y2="10.16" width="0.127" layer="21"/>
+<pad name="1" x="-3.048" y="2.032" drill="1"/>
+<pad name="2" x="-4.064" y="3.81" drill="1"/>
+<pad name="3" x="-1.016" y="2.032" drill="1"/>
+<pad name="4" x="-2.032" y="3.81" drill="1"/>
+<pad name="5" x="1.016" y="2.032" drill="1"/>
+<pad name="6" x="0" y="3.81" drill="1"/>
+<pad name="7" x="3.048" y="2.032" drill="1"/>
+<pad name="8" x="2.032" y="3.81" drill="1"/>
+<pad name="GND1" x="-8.636" y="2.921" drill="1.6"/>
+<pad name="GND2" x="7.62" y="2.921" drill="1.6"/>
+<hole x="-6.858" y="-0.508" drill="3.2"/>
+<hole x="5.842" y="-0.508" drill="3.2"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RJ45-TRAFO">
+<wire x1="-13.97" y1="-25.4" x2="-13.97" y2="25.4" width="0.1904" layer="94"/>
+<wire x1="-13.97" y1="25.4" x2="11.43" y2="25.4" width="0.1904" layer="94"/>
+<wire x1="11.43" y1="25.4" x2="11.43" y2="3.81" width="0.1904" layer="94"/>
+<wire x1="11.43" y1="3.81" x2="12.7" y2="3.81" width="0.1904" layer="94"/>
+<wire x1="12.7" y1="3.81" x2="12.7" y2="0.635" width="0.1904" layer="94"/>
+<wire x1="12.7" y1="0.635" x2="13.97" y2="0.635" width="0.1904" layer="94"/>
+<wire x1="13.97" y1="0.635" x2="13.97" y2="-1.27" width="0.1904" layer="94"/>
+<wire x1="13.97" y1="-1.27" x2="12.7" y2="-1.27" width="0.1904" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="-4.445" width="0.1904" layer="94"/>
+<wire x1="12.7" y1="-4.445" x2="11.43" y2="-4.445" width="0.1904" layer="94"/>
+<wire x1="11.43" y1="-4.445" x2="11.43" y2="-25.4" width="0.1904" layer="94"/>
+<wire x1="11.43" y1="-25.4" x2="-13.97" y2="-25.4" width="0.1904" layer="94"/>
+<wire x1="-12.7" y1="-22.86" x2="-12.7" y2="22.86" width="0.1904" layer="94"/>
+<wire x1="-12.7" y1="22.86" x2="7.62" y2="22.86" width="0.1904" layer="94"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="16.51" width="0.1904" layer="94"/>
+<wire x1="7.62" y1="16.51" x2="10.16" y2="16.51" width="0.1904" layer="94"/>
+<wire x1="10.16" y1="16.51" x2="10.16" y2="-16.51" width="0.1904" layer="94"/>
+<wire x1="10.16" y1="-16.51" x2="7.62" y2="-16.51" width="0.1904" layer="94"/>
+<wire x1="7.62" y1="-16.51" x2="7.62" y2="-22.86" width="0.1904" layer="94"/>
+<wire x1="7.62" y1="-22.86" x2="-12.7" y2="-22.86" width="0.1904" layer="94"/>
+<pin name="TX+" x="-17.78" y="17.78" length="middle"/>
+<pin name="TX0" x="-17.78" y="12.7" length="middle"/>
+<pin name="TX-" x="-17.78" y="7.62" length="middle"/>
+<pin name="RX+" x="-17.78" y="2.54" length="middle"/>
+<pin name="RX0" x="-17.78" y="-2.54" length="middle"/>
+<pin name="RX-" x="-17.78" y="-7.62" length="middle"/>
+<pin name="NC1" x="-17.78" y="-12.7" length="middle" direction="nc"/>
+<pin name="GND" x="-17.78" y="-17.78" length="middle" direction="sup"/>
+<pin name="GND2" x="-2.54" y="27.94" length="middle" direction="sup" rot="R270"/>
+<pin name="GND1" x="-2.54" y="-27.94" length="middle" direction="sup" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RJ45-TRAFO">
+<description>&lt;b&gt;RJ45 socket with integrated magnetics&lt;/b&gt;
+&lt;p&gt;
+  &lt;table&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;b&gt;Naming:&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Amphenol&lt;/td&gt;&lt;td&gt;LMJ1598824110DT39&lt;/td&gt;
+      &lt;tr&gt;&lt;td&gt;TME&lt;/td&gt;&lt;td&gt;RJ45-TRAFO&lt;/td&gt;&lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/p&gt;
+&lt;p&gt;
+   &lt;b&gt;Author:&lt;/b&gt;&amp;nbsp;
+   &lt;a href="mailto:kalandrap@gmail.com"&gt;Petr Kalandra&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+   &lt;b&gt;Datasheet:&lt;/b&gt;&amp;nbsp;
+   &lt;a href="http://zefiryn.tme.pl/dok/zlacza/rjtrafo.pdf"&gt;http://zefiryn.tme.pl/dok/zlacza/rjtrafo.pdf&lt;/a&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RJ45-TRAFO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RJ45-RJHSE5E8X">
+<connects>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="NC1" pad="7"/>
+<connect gate="G$1" pin="RX+" pad="4"/>
+<connect gate="G$1" pin="RX-" pad="6"/>
+<connect gate="G$1" pin="RX0" pad="5"/>
+<connect gate="G$1" pin="TX+" pad="1"/>
+<connect gate="G$1" pin="TX-" pad="3"/>
+<connect gate="G$1" pin="TX0" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RJ45-RJHSE5E80" package="RJ45-RJHSE5E8X">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4143,15 +4134,10 @@ type RDH, grid 15 mm</description>
 </classes>
 <parts>
 <part name="X1" library="con-subd" deviceset="F09VP" device=""/>
-<part name="U$1" library="con-amphenol-rj45-ld" deviceset="RJ45-TRAFO-L" device=""/>
-<part name="U$3" library="con-amphenol-rj45-ld" deviceset="RJ45-TRAFO-L" device=""/>
-<part name="U$5" library="con-amphenol-rj45-ld" deviceset="RJ45-TRAFO-L" device=""/>
-<part name="U$6" library="con-amphenol-rj45-ld" deviceset="RJ45-TRAFO-L" device=""/>
 <part name="X2" library="con-subd" deviceset="F09VP" device=""/>
 <part name="X3" library="con-subd" deviceset="F09VP" device=""/>
 <part name="X4" library="con-subd" deviceset="F09VP" device=""/>
 <part name="X11" library="con-phoenix-508" deviceset="MKDSN1,5/6-5,08" device=""/>
-<part name="U$2" library="con-amphenol-rj45-ld" deviceset="RJ45-TRAFO-L" device=""/>
 <part name="X5" library="con-phoenix-508" deviceset="MKDSN1,5/6-5,08" device=""/>
 <part name="X8" library="con-phoenix-508" deviceset="MKDSN1,5/10-5,08" device=""/>
 <part name="X9" library="con-phoenix-508" deviceset="MKDSN1,5/10-5,08" device=""/>
@@ -4161,6 +4147,11 @@ type RDH, grid 15 mm</description>
 <part name="LED4" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="LED5" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="LED6" library="SparkFun-LED" deviceset="LED" device="5MM"/>
+<part name="U$1" library="con-amphenol-rj45-nzin" deviceset="RJ45-TRAFO" device=""/>
+<part name="U$2" library="con-amphenol-rj45-nzin" deviceset="RJ45-TRAFO" device=""/>
+<part name="U$3" library="con-amphenol-rj45-nzin" deviceset="RJ45-TRAFO" device=""/>
+<part name="U$4" library="con-amphenol-rj45-nzin" deviceset="RJ45-TRAFO" device=""/>
+<part name="U$5" library="con-amphenol-rj45-nzin" deviceset="RJ45-TRAFO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4168,10 +4159,6 @@ type RDH, grid 15 mm</description>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="20.32" y="55.88"/>
-<instance part="U$1" gate="G$1" x="124.46" y="7.62"/>
-<instance part="U$3" gate="G$1" x="124.46" y="78.74"/>
-<instance part="U$5" gate="G$1" x="124.46" y="144.78"/>
-<instance part="U$6" gate="G$1" x="124.46" y="-60.96"/>
 <instance part="X2" gate="G$1" x="20.32" y="30.48"/>
 <instance part="X3" gate="G$1" x="20.32" y="5.08"/>
 <instance part="X4" gate="G$1" x="20.32" y="-22.86"/>
@@ -4181,7 +4168,6 @@ type RDH, grid 15 mm</description>
 <instance part="X11" gate="-4" x="-17.78" y="78.74"/>
 <instance part="X11" gate="-5" x="-27.94" y="73.66"/>
 <instance part="X11" gate="-6" x="-17.78" y="68.58"/>
-<instance part="U$2" gate="G$1" x="124.46" y="-124.46"/>
 <instance part="X5" gate="-1" x="-30.48" y="-35.56"/>
 <instance part="X5" gate="-2" x="-20.32" y="-40.64"/>
 <instance part="X5" gate="-3" x="-30.48" y="-45.72"/>
@@ -4214,6 +4200,11 @@ type RDH, grid 15 mm</description>
 <instance part="LED4" gate="G$1" x="-20.32" y="50.8"/>
 <instance part="LED5" gate="G$1" x="-22.86" y="-68.58"/>
 <instance part="LED6" gate="G$1" x="58.42" y="-45.72"/>
+<instance part="U$1" gate="G$1" x="124.46" y="142.24"/>
+<instance part="U$2" gate="G$1" x="121.92" y="76.2"/>
+<instance part="U$3" gate="G$1" x="121.92" y="5.08"/>
+<instance part="U$4" gate="G$1" x="121.92" y="-63.5"/>
+<instance part="U$5" gate="G$1" x="121.92" y="-127"/>
 </instances>
 <busses>
 </busses>
@@ -4269,24 +4260,6 @@ type RDH, grid 15 mm</description>
 <pinref part="LED4" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="TX+"/>
-<wire x1="104.14" y1="160.02" x2="99.06" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="160.02" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="TX+"/>
-<wire x1="99.06" y1="93.98" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="93.98" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="TX+"/>
-<wire x1="99.06" y1="22.86" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="22.86" x2="99.06" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="TX+"/>
-<wire x1="99.06" y1="-45.72" x2="104.14" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="-45.72" x2="99.06" y2="-109.22" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="TX+"/>
-<wire x1="99.06" y1="-109.22" x2="104.14" y2="-109.22" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="3"/>
@@ -4333,132 +4306,6 @@ type RDH, grid 15 mm</description>
 <wire x1="-22.86" y1="-25.4" x2="0" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-60.96" x2="-22.86" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="LED5" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="TX0"/>
-<wire x1="104.14" y1="154.94" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="154.94" x2="96.52" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="TX0"/>
-<wire x1="104.14" y1="88.9" x2="96.52" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="88.9" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="TX0"/>
-<wire x1="104.14" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="17.78" x2="96.52" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="TX0"/>
-<wire x1="104.14" y1="-50.8" x2="96.52" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="-50.8" x2="96.52" y2="-114.3" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="TX0"/>
-<wire x1="96.52" y1="-114.3" x2="104.14" y2="-114.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="TX-"/>
-<wire x1="104.14" y1="-119.38" x2="93.98" y2="-119.38" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="-119.38" x2="93.98" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="TX-"/>
-<wire x1="104.14" y1="-55.88" x2="93.98" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="-55.88" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="TX-"/>
-<wire x1="104.14" y1="12.7" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="12.7" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="TX-"/>
-<wire x1="104.14" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="83.82" x2="93.98" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="TX-"/>
-<wire x1="93.98" y1="149.86" x2="104.14" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="RX+"/>
-<wire x1="104.14" y1="144.78" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="144.78" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="RX+"/>
-<wire x1="104.14" y1="78.74" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="78.74" x2="91.44" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="RX+"/>
-<wire x1="104.14" y1="7.62" x2="91.44" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="7.62" x2="91.44" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="RX+"/>
-<wire x1="104.14" y1="-60.96" x2="91.44" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="-60.96" x2="91.44" y2="-124.46" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="RX+"/>
-<wire x1="91.44" y1="-124.46" x2="104.14" y2="-124.46" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="RX0"/>
-<wire x1="104.14" y1="-129.54" x2="88.9" y2="-129.54" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-129.54" x2="88.9" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="RX0"/>
-<wire x1="104.14" y1="-66.04" x2="88.9" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-66.04" x2="88.9" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="RX0"/>
-<wire x1="104.14" y1="2.54" x2="88.9" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="2.54" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="RX0"/>
-<wire x1="104.14" y1="73.66" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="73.66" x2="88.9" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="RX0"/>
-<wire x1="88.9" y1="139.7" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="RX-"/>
-<wire x1="104.14" y1="134.62" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="134.62" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="RX-"/>
-<wire x1="104.14" y1="68.58" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="68.58" x2="86.36" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="RX-"/>
-<wire x1="104.14" y1="-2.54" x2="86.36" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-2.54" x2="86.36" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="RX-"/>
-<wire x1="104.14" y1="-71.12" x2="86.36" y2="-71.12" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-71.12" x2="86.36" y2="-134.62" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="RX-"/>
-<wire x1="86.36" y1="-134.62" x2="104.14" y2="-134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="NC1"/>
-<wire x1="104.14" y1="-139.7" x2="83.82" y2="-139.7" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="-139.7" x2="83.82" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="NC1"/>
-<wire x1="104.14" y1="-76.2" x2="83.82" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="-76.2" x2="83.82" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="NC1"/>
-<wire x1="104.14" y1="-7.62" x2="83.82" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="-7.62" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="NC1"/>
-<wire x1="104.14" y1="63.5" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="63.5" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="NC1"/>
-<wire x1="83.82" y1="129.54" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="GND"/>
-<wire x1="104.14" y1="124.46" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="124.46" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="104.14" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="58.42" x2="81.28" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="104.14" y1="-12.7" x2="81.28" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="-12.7" x2="81.28" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="GND"/>
-<wire x1="104.14" y1="-81.28" x2="81.28" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="-81.28" x2="81.28" y2="-144.78" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="81.28" y1="-144.78" x2="104.14" y2="-144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="2">
