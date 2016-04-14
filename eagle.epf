@@ -343,14 +343,14 @@ UsedLibrary="/Applications/EAGLE-6.6.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="/Applications/EAGLE-6.6.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="/Applications/EAGLE-6.6.0/lbr/zetex.lbr"
 UsedLibrary="/Applications/EAGLE-6.6.0/lbr/zilog.lbr"
+UsedLibrary="/Users/nzin/Documents/eagle/con-amphenol-rj45-ld.lbr"
 UsedLibrary="/Users/nzin/Documents/eagle/jointbutt/trainLib.lbr"
 UsedLibrary="/Users/nzin/Documents/eagle/con-neutrik_xlr_2.lbr"
 UsedLibrary="/Users/nzin/Documents/eagle/con-amphenol.lbr"
-UsedLibrary="/Users/nzin/Documents/eagle/con-amphenol-rj45-ld.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="139 62 738 461"
+Loc="277 148 876 547"
 State=2
 Number=0
 

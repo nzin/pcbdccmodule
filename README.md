@@ -4,7 +4,7 @@ PCB schematic for a module train layout
 BOM:
 - mouser: 2x 651-1729209
 - mouser: 2x 651-1729160
-- mouser: 5x 523-RJHSE5E80
+- mouser: 5x 523-RJHSE-7360
 - mouser: 4x 806-KF85X-ED-9S-BR
 - 3x bipolar red/green led: http://www.ledsales.com.au/index.php?main_page=product_info&products_id=1683
 - resistors: 3x 2.5k
